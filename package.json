@@ -1,9 +1,11 @@
 {
+  "name": "@evches/raml-outline",
+  "version": "0.0.5",
   "bugs": {
     "url": "https://github.com/mulesoft/raml-structure/issues"
   },
   "dependencies": {
-    "raml-1-parser": "1.1.14",
+    "@evches/raml-1-parser": "1.1.14",
     "underscore": "^1.8.3"
   },
   "description": "[![Build Status](https://travis-ci.org/mulesoft/raml-outline.svg?branch=code)](https://travis-ci.org/mulesoft/raml-outline)",
@@ -34,7 +36,6 @@
       "email": "denis@onpositive.com"
     }
   ],
-  "name": "raml-outline",
   "optionalDependencies": {},
   "readme": "ERROR: No README data found!",
   "repository": {
@@ -50,6 +51,5 @@
     "test": "gulp test",
     "testall": "dev-env-installer testall"
   },
-  "typings": "dist/index.d.ts",
-  "version": "0.0.5"
+  "typings": "dist/index.d.ts"
 }

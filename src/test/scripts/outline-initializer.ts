@@ -1,5 +1,5 @@
 import ramlOutline = require("../../index")
-import rp=require("raml-1-parser")
+import rp=require("@evches/raml-1-parser")
 import lowLevel=rp.ll;
 import hl=rp.hl;
 var universes=rp.universes

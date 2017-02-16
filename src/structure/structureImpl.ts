@@ -1,7 +1,7 @@
 /// <reference path="../../typings/main.d.ts" />
 
 import structure = require("./structureInterfaces")
-export import parser=require("raml-1-parser");
+export import parser=require("@evches/raml-1-parser");
 import search=parser.search;
 import hl=parser.hl;
 import ll=parser.ll;
